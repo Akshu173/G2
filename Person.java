@@ -27,13 +27,17 @@ public class Person {
     }
     public static void main(String[] args) throws ParseException {
         
-            // Creating a person
             Person person = new Person("Akshay", "01-11-2004");
-            // Displaying person details
+       
             person.displayName();
             person.displayAge();
 
             
             System.out.println();
+            EmployeeDetails employee = new EmployeeDetails("Amith", "2004-6-2", 1001, 60000.0);
+         
+            employee.displayName();
+            employee.displayAge();
+            employee.displayEmployeeDetails();
 }
 }
